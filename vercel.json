@@ -1,0 +1,46 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/rider",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/rider.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/become-rider.html",
+      "destination": "/become-rider",
+      "permanent": true
+    },
+    {
+      "source": "/application-status.html",
+      "destination": "/application-status",
+      "permanent": true
+    },
+    {
+      "source": "/pages/become-rider",
+      "destination": "/become-rider",
+      "permanent": true
+    },
+    {
+      "source": "/pages/application-status",
+      "destination": "/application-status",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/become-rider",
+      "destination": "/pages/become-rider.html"
+    },
+    {
+      "source": "/application-status",
+      "destination": "/pages/application-status.html"
+    }
+  ]
+}
